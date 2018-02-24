@@ -1,0 +1,153 @@
+body {
+	padding: 0;
+	margin: 0;
+	/*background:  url(../img/background.jpg) 50% 0 no-repeat;*/
+	
+}
+
+div#background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+}
+
+div#background> img {
+	height: 100%;
+	width: 100%;
+	border: 0;
+}
+
+.login {
+	position: relative;
+	right: 10px;
+	margin-top: 30%;
+	width: 370px;
+	margin: 0 auto;
+	border: 2px solid #eee;
+	border-bottom: none;
+	background-color: #ffffff;
+	border: 0;
+	padding: 5px 0;
+	background: #fff;
+	margin: 0 auto;
+	-webkit-box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, .3);
+	box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, .3);
+	opacity:0.6;
+}
+
+h1 {
+	
+	margin: 80px auto 50px auto;
+	text-align: center;
+	color: #FFFFFF;
+	margin-left: -25px;
+	font-size: 55px;
+	font-weight: bold;
+	opacity:0.6;
+}
+
+.login_form {
+	width: 272px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	margin-top: 30px;
+}
+
+.lable_id {
+	float: left;
+	margin-top: 10px;
+	width: 50px;
+	height: 42px;
+	font-size: 16px;
+	line-height: 42px;
+	font-family: "微软雅黑";
+	
+}
+
+.lable_password {
+	float: left;
+	margin-top: 10px;	
+	width: 50px;
+	height: 30px;
+	font-size: 16px;	
+	clear: both;
+	line-height: 30px;
+	font-family: "微软雅黑";
+}
+
+.td_id{
+	height: 55px;
+	position: relative;
+	z-index: 10;
+}
+
+.td_name{
+	height: 55px;
+	margin-bottom: 10px;
+	position: relative;
+	z-index: 3;
+}
+
+
+.input {	
+	margin-top: 10px;
+	float: left;
+	width: 200px;
+	height: 38px;
+	padding-left: 5px;
+	line-height: 30px;
+	line-height: 38px;
+	border: 1px solid #D7D7D7;
+	background: #fff;
+	color: #333;
+	border-radius: 2px;
+	font-family: Verdana, Tahoma, Arial;
+	font-size: 16px;
+	ime-mode: disabled;
+}
+p{
+	height:5px;
+}
+
+.login_form .num{
+	height: 60px;
+}
+
+.login_form .nam {
+	height: 55px;
+	margin-bottom: 10px;
+	position: relative;
+	z-index: 3;
+}
+
+.button {
+	display: inline-block;	
+	margin-top: 20px;
+	height: 41px;
+	width: 140px;
+	font-size: 16px;
+	padding: 0 10px;
+	border-radius: 4px;
+	background: #2795dc;
+	border: none;
+	cursor: pointer;
+	border-bottom: 3px solid #0078b3;
+	border-bottom: none;
+	color: #fff;
+	text-align: center;
+	outline: none;
+	font-family: "微软雅黑";
+	position: relative;
+	left: 25%;
+}
+
+input.button:hover {
+	background: #0081c1;
+	border-bottom: 3px solid #006698;
+	*border-bottom: none;
+	color: #fff;
+	text-decoration: none;
+}
