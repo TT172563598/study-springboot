@@ -20,6 +20,7 @@ public class TestJava {
     }*/
 
     @Test
+	//获取当前主机IP
     public void GetInetAddress(){
         InetAddress ia = null;
         try {
